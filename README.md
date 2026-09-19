@@ -8,5 +8,5 @@
 
 2. Run the install script
    ```
-   curl -fsSL github.com/moktavizen/dotfiles/raw/main/i | sh
+   curl -fsSL github.com/isvizen/dotfiles/raw/main/i | sh
    ```

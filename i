@@ -2,7 +2,7 @@
 
 nix-shell -p xdg-user-dirs git dotter --run "
   xdg-user-dirs-update
-  git clone https://github.com/moktavizen/dotfiles ~/.dotfiles
+  git clone https://github.com/isvizen/dotfiles ~/.dotfiles
   cd ~/.dotfiles && dotter --force
 "
 
