@@ -304,6 +304,12 @@ local highlights = {
   DiagnosticUnderlineOk = { undercurl = true, sp = c.green_bright },
 
   --
+  -- LSP
+  --
+
+  LspSignatureActiveParameter = { link = 'PmenuSel' },
+
+  --
   -- Plugins
   --
 
