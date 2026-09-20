@@ -16,7 +16,6 @@ local c = {
   fg_bright = '#ffffff',
   fg_muted = '#9d9d9d',
   fg_subtle = '#7E7E7E',
-  border_focus = '#1f6feb',
 
   -- Syntax Colors
   red = '#ff7b72',
@@ -332,7 +331,7 @@ local highlights = {
 
   -- mini.files
   MiniFilesCursorLine = { link = 'PmenuSel' },
-  MiniFilesBorderModified = { fg = c.border_focus, bg = c.bg_dark },
+  MiniFilesBorderModified = { fg = c.blue, bg = c.bg_dark },
 
   -- mini.diff
   MiniDiffSignAdd = { fg = c.diff_add },
