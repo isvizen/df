@@ -8,5 +8,5 @@
 
 2. Run the install script
    ```
-   curl -fsSL github.com/isvizen/dotfiles/raw/main/i | sh
+   curl -fsSL isvizen.github.io/dotfiles/i | sh
    ```
