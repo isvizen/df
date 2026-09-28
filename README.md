@@ -8,5 +8,5 @@
 
 2. Run the install script
    ```
-   curl -fL isvizen.github.io/df | sh
+   curl -fL vizenc.github.io/df | sh
    ```
