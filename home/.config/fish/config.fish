@@ -43,7 +43,10 @@ if status is-interactive
   # Prompt
   #
 
-  set -g fish_greeting
+  function fish_greeting
+    echo (set_color yellow)"There was a time when Einstein couldn't count to ten
+A year from now you may wish you had started today"
+  end
 
   set -g fish_prompt_pwd_full_dirs 2
   set -g __fish_git_prompt_show_informative_status true
@@ -58,12 +61,7 @@ if status is-interactive
   set -g __fish_git_prompt_char_untrackedfiles '%'
 
   function fish_prompt
-    # Only add an empty line if this is NOT the first time the prompt is drawn
-    if set -q __prompt_initialized
-      echo
-    else
-      set -g __prompt_initialized 1
-    end
+    echo
 
     set_color magenta
     echo -n (prompt_pwd)

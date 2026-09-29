@@ -130,27 +130,6 @@ MiniIcons.mock_nvim_web_devicons()
 require('mini.completion').setup({ delay = { info = 10000000 } })
 
 -- QOL
-require('mini.starter').setup({
-  header = [[
-       ▄▄     ▄▄▄          ▄▄▄
-       ██▄   ██▀          █▀██  ██▀▀
-       ███▄  ██             ██  ██ ▀▀ ▄
-       ██ ▀█▄██ ▄█▀█▄ ▄███▄ ██  ██ ██ ███▄███▄
-       ██   ▀██ ██▄█▀ ██ ██ ██▄ ██ ██ ██ ██ ██
-     ▀██▀    ██▄▀█▄▄▄▄▀███▀  ▀███▀▄██▄██ ██ ▀█]],
-  -- stylua: ignore
-  items = {
-    { name = 'Find file --------------------------------------- F', action = function() MiniPick.builtin.files() end, section = ' ' },
-    { name = 'Grep text --------------------------------------- G', action = function() MiniPick.builtin.grep_live() end, section = ' ' },
-    { name = 'Recent files ------------------------------------ R', action = function() MiniExtra.pickers.oldfiles() end, section = ' ' },
-  },
-  footer = "There was a time when Einstein couldn't count to ten\nA year from now you may wish you had started today",
-  content_hooks = {
-    require('mini.starter').gen_hook.aligning('center', 'center'),
-  },
-  evaluate_single = true,
-  silent = true,
-})
 require('mini.diff').setup({
   view = {
     style = 'sign',

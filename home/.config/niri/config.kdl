@@ -97,7 +97,7 @@ spawn-at-startup "wlsunset" "-l" "-7.15" "-L" "112.61"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
 spawn-at-startup "brave-origin"
-spawn-sh-at-startup "foot sh -c 'nvim; exec fish'"
+spawn-sh-at-startup "foot"
 
 layout {
     gaps 8
